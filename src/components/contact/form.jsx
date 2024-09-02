@@ -45,7 +45,7 @@ function Form() {
     }
   };
   return (
-    <section className="px-[80px] max-md:px-[40px] max-sm:px-[20px] max-sm:pt-[51px] max-lg:pb-[151px] bg-pink-200 flex max-lg:flex-col max-lg:gap-[52px] max-lg:items-center justify-between py-[101px]">
+    <section className="px-[80px] max-md:px-[40px] max-sm:px-[20px] max-sm:pt-[55px] max-lg:pb-[151px] bg-pink-200 flex max-lg:flex-col max-lg:gap-[52px] max-lg:items-center justify-between py-[101px]">
       <div className="flex flex-col">
       <h1 className="text-[36px] max-lg:text-center text-black capitalize leading-[120%] font-semibold">
       Get in Touch

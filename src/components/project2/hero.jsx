@@ -11,7 +11,7 @@ function Project2() {
       } px-[80px] max-md:px-[40px] max-sm:px-[20px] max-sm:h-[500px] max-sm:pt-[120px] h-[100vh] relative pt-[300px]`}
     >
         <h1 className="text-[50px]">
-            Project 2: Personal Portfolio Website 
+            Personal Portfolio Website 
         </h1>
         <h1 className="text-[30px] ">
             Tailwind CSS And React.js:

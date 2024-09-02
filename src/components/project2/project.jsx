@@ -1,6 +1,6 @@
 import React from "react"; 
 import Image from "../../assets/project1.jpeg";
-import Image2 from "../../assets/project2.jpeg";
+import Image3 from "../../assets/project3.jpeg";
 import { Link } from "react-router-dom";
 
 function Project() {
@@ -33,19 +33,19 @@ function Project() {
                     </button>
                 </div>
                 <div className="bg-white text-black rounded-lg p-4 hover:scale-105 transition-transform duration-300">
-                    <img src={Image2} alt="Project 2" className=" rounded-md" />
-                    <h2 className="text-xl font-semibold mt-4">Project 2</h2>
-                    <h3 className="text-lg font-semibold mt-2">Personal Portfolio Website</h3>
+                    <img src={Image3} alt="Project 3" className=" rounded-md" />
+                    <h2 className="text-xl font-semibold mt-4">Project 3</h2>
+                    <h3 className="text-lg font-semibold mt-2"> Knest Aluminium Formwork</h3>
                     <p className="text-base mt-2">Skills Used:</p>
                     <div className="flex flex-wrap gap-2 mt-2">
                         <p className="px-3 py-1 text-sm bg-gray-500 text-white rounded-full">HTML</p>
                         <p className="px-3 py-1 text-sm bg-gray-500 text-white rounded-full">Tailwind</p>
-                        <p className="px-3 py-1 text-sm bg-gray-500 text-white rounded-full">React.js</p>
+                        <p className="px-3 py-1 text-sm bg-gray-500 text-white rounded-full">JavaScript</p>
                     </div>
                     <button className="mt-4 px-4 py-2 text-sm border-2 rounded-full hover:bg-gray-200 transition-colors duration-300">
                     <Link
                       onClick={handleClick}
-                      to={"/projects/portfolio-project"}>
+                      to={"/projects/knst-project"}>
                         Learn More
                     </Link>
                     </button>

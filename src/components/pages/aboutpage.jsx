@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../about/hero";
 import Section from "../about/section";
+import Projects from "../home/projects";
 
 
 function About(){
@@ -8,6 +9,8 @@ function About(){
         <>
         <Hero/>
         <Section />
+        <Projects />
+
         
         </>     
 

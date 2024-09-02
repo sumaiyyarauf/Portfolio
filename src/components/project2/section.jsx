@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import Image from "../../assets/project2.jpeg";
 import ThemeContext from "../../context/themContext";
 
 function Section() {
@@ -24,7 +23,6 @@ function Section() {
             users can navigate and use the website with ease.
             .
         </p>
-            <img src={Image} className=" border-[1px] mt-[20px] border-[black] rounded-[15px] " alt="project2" />
         <h1 className="text-[30px] mt-[20px] ">
             Built with:
         </h1>

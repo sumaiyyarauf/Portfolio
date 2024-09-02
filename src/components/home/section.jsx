@@ -14,7 +14,7 @@ function Section() {
       };
     return(
 
-        <section className={`flex flex-col items-center gap-6 px-4 sm:px-8 lg:px-16 py-12 sm:py-16 lg:py-24 ${textColor} ${bgColor}`}>
+        <section className={`flex flex-col items-center gap-6 px-4 sm:px-8 lg:px-16 border-y-[20px] border-white py-12 sm:py-16 lg:py-24 ${textColor} ${bgColor}`}>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl text-center w-full sm:w-3/4 lg:w-1/2 leading-tight font-semibold">
                 Want To Know More About Me.
             </h1>

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import image1 from "../../assets/p3-a.jpeg";
-import image2 from "../../assets/p3-b.jpeg";
-import image3 from "../../assets/project3.jpeg";
+import image1 from "../../assets/p2-a.jpeg";
+import image2 from "../../assets/p2-b.jpeg";
+import image3 from "../../assets/project2.jpeg";
 import ThemeContext from "../../context/themContext";
 
 function Collage() {

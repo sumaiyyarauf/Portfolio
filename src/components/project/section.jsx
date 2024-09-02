@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import ThemeContext from "../../context/themContext";
+import { Link } from "react-router-dom";
 
 function Section() {
     const { theme } = useContext(ThemeContext);
@@ -23,8 +24,11 @@ function Section() {
             Project 1
         </h1>
         <p className="pt-[20px]">
-            After compeleting <strong> HTML & CSS</strong> I did a project using these skills,  A Knest Aluminium Framwork website showcasing my skills, experience, and projects as a web developer. 
-            Built using HTML and CSS.<a href="" className="font-semibold">Click here</a>  to vist my project.
+            After compeleting <strong> HTML & TailwindCSS</strong> I did a project using these skills, This website is built using Tailwind CSS, a utility-first CSS framework. While every effort has been made to ensure the website's functionality and accessibility...this website showcasing my skills, experience, and projects as a web developer. 
+            Built using HTML and CSS.<a href="" className="font-bold">
+                 <Link to={"/projects/tailwind-project"}>
+                 Click here
+                 </Link></a>  to vist my project.
         </p>
         <h1 className="text-[50px] font-semibold capitalize z-10">
             Project 2
@@ -32,7 +36,21 @@ function Section() {
         <p className="pt-[20px]">
             After compeleting <strong>Tailwind CSS & React.js</strong> I did a project using these skills, A personal portfolio website showcasing my skills, experience, and projects as a web 
             developer.This website is built using React.js and Tailwind CSS, offering a seamless user
-            experience with its fast and scalable performance<a href="" className="font-semibold">Click here</a>  to vist my project.
+            experience with its fast and scalable performance<a href="" className="font-bold">
+                 <Link to={"/projects/portfolio-project"}>
+                 Click here
+                 </Link></a>   to vist my project.
+        </p>
+
+        <h1 className="text-[50px] font-semibold capitalize z-10">
+            Project 3
+        </h1>
+        <p className="pt-[20px] pb-[40px]">
+            I did a project using these skills,  A Knest Aluminium Framwork website showcasing my skills, experience, and projects as a web developer. 
+            Built using HTML and CSS.<a href="" className="font-bold">
+                 <Link to={"/projects/knst-project"}>
+                 Click here
+                 </Link></a>  to vist my project.
         </p>
        
     </section>

@@ -24,7 +24,7 @@ function Sidebar() {
         {`flex-col relative ${visibility ? 'translate-0' : '-translate-x-[50px]'} transition-transform duration-300 ease-in-out  flex bg-white p-[8px] rounded-[13px] gap-[14px]`}
         >
           <li>
-            <a href="">
+            <a href="https://github.com/sumaiyyarauf">
               <img
                 src={Github}
                 className="bg-white rounded-[50%]"
@@ -35,7 +35,7 @@ function Sidebar() {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://linkedin.com/in/sumaiyya-abdul-rauf">
             <img 
               src={Linkedin} 
                className="bg-white rounded-[50%]"

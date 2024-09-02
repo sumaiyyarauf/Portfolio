@@ -7,7 +7,11 @@ function Hero() {
     const { theme } = useContext(ThemeContext);
 
     const textColor = theme === "light" ? "text-black" : "text-white";
-    const bgColor = theme === "light" ? "bg-white" : "bg-rose-900";
+    const bgColor = theme === "light" ? "bg-white" : "bg-pink-900";
+    
+    const handleClick = () => {
+      window.scrollTo({top: 565, left: 0 });
+    };
 
   return(
     <main className={`relative h-screen px-4 md:px-8 lg:px-16 text-center overflow-hidden pt-24 ${bgColor} ${textColor}`}>
@@ -16,7 +20,10 @@ function Hero() {
     </h1>
 
     <div className="flex justify-center items-center mt-[120px]">
-     <Link to="/form">
+     <Link
+     onClick={handleClick}
+     to="">
+      {/* to="/form"> */}
       <img src={Image} alt="logo" className=" rounded-[50%] bg-slate-300 animate-bounce" />
       </Link>
     </div>

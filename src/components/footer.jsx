@@ -7,40 +7,75 @@ function Footer() {
     const { theme } = useContext(ThemeContext);
     const textColor = theme === "light" ? "text-black" : "text-white";
     const bgColor = theme === "light" ? "bg-white" : "bg-pink-900";
+
+    const handleClick = () => {
+        window.scrollTo({ top: 0, left: 0 });
+      };
     return(
-        <footer className={`flex justify-between ${bgColor} ${textColor} text-[white] px-[80px] pb-[20px] pt-[50px] `}>
+        <footer className={`flex justify-between ${bgColor} ${textColor} text-[white] border-t-[20px] border-white px-[80px] pb-[20px] pt-[50px] `}>
             <ul className="flex gap-[30px]">
                 <div>
                 <li>
-                    Linkedin
+                   <a href="https://github.com/sumaiyyarauf">
+                     Github
+                   </a>
                 </li>
                 <li>
-                    Github
-                </li>
-                <li>
-                    Instagram
+                   <a href="https://linkedin.com/in/sumaiyya-abdul-rauf">
+                   linkedin
+                   </a>
                 </li>
                 </div>
                 <div>
-                   <li>
-                      Mail
-                    </li>
-                    <li>
-                       Phone no
-                    </li>
+                   <a href="mailto:sumaiyasheikh088gmail.com">
+                     Email
+                   </a>
+                <li>
+                    <a href="">
+                     Phone no
+                   </a>
+                </li>
                 </div>
             </ul>
 
             <ul>
                 <li>
-                    About
+                    <Link
+                      onClick={handleClick}
+                      to={"/projects/tailwind-project"}>
+                        Tailwind Project
+                    </Link>
                 </li>
                 <li>
+                    <Link
+                      onClick={handleClick}
+                      to={"/projects/portfolio-project"}>
+                        Portfolio Project 
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                      onClick={handleClick}
+                      to={"/projects/knst-project"}>
+                        Knest Project 
+                    </Link>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                   <Link to="/about">
+                    About
+                   </Link>
+                </li>
+                <li>
+                   <Link to="/projects">
                     Projects
+                   </Link>
                 </li>
                 <li>
                     <Link to='/contact'>
-                    Contact
+                     Contact
                     </Link>
                 </li>
             </ul>
