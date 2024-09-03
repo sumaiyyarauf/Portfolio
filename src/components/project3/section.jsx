@@ -53,11 +53,6 @@ function Section() {
         ducimus inventore nesciunt recusandae numquam animi nostrum laudantium
         voluptas sapiente! Excepturi ut molestiae suscipit voluptate cupiditate
         quam debitis soluta voluptatum autem.{" "}
-        <a href="https://parallel-edu.github.io/FullStack-Batch-3/project/index.html" target="_blank" className="underline">
-          {" "}
-          Click here
-        </a>{" "}
-        to visit my project.
       </p>
     </section>
   );
